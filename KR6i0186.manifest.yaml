@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6i0186/v1
+canonical_location: https://kanripo.org/bkk/KR6i0186/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 五母子經
+  identifiers:
+    alt_id:
+    - T14n0555a
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T14/T14n0555a.xml
+    old_id: T14n0555a
+  edition:
+    short: bkk
+editions:
+- short: 知
+  label: 知
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0186_000.yaml, hash: 'sha256:bf23e83e2b785a6797bcd449c9e1a529c21dc995744e440702eea64c179b1ef1'}
+  - {seq: 1, filename: KR6i0186_001.yaml, hash: 'sha256:4b68f47438bb577beedb929701106a06f58b8dfb4e3c107673bac5db39d3573a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6i0186_001.markers.yaml, hash: 'sha256:b395e2d38b601aaee01c7dd5a4c11fc33b94b094adc98a57367b151dbbe8b131'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0186_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 769
+  label: 五母子經
+  type: juan
+  level: 1
+hash: sha256:766143b4a6b08b15b07faa8708c5ebea926622d29f9ae62375a9b49f0cd29cfe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
